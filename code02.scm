@@ -1,0 +1,18 @@
+(print (cons 1 2))
+(print (cons (cons (cons 1 2) 3) 4))
+; (print (1))
+(print (cons 1 '()))
+(print (cons 1 (cons 2 '())))
+(print (cons 1 (cons 2 (cons 3 (cons 4 '())))))
+(print (list 1 2 3 4 5))
+(print (list + 1 2 3 4 5))
+(print (car (list 1 2 3)))
+(print (cdr (list 1 2 3)))
+(print (cdr (list 1 2 3 4)))
+(print)
+(print (cdr (cdr (list 1 2 3 4))))
+(print (car (cdr (cdr (list 1 2 3 4)))))
+(print (cadr (cdr (list 1 2 3 4))))
+(print (caddr (list 1 2 3 4))) ; ｗｗｗｗ
+(print (car (cddr (list 1 2 3 4))))
+
